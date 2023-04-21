@@ -1,0 +1,222 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+h1 {
+    color: #72285b;
+}
+.frm {
+    color: #f39682;
+    }
+.exp {
+    color: #e3558b;
+}
+.pdm {
+    color: #311a2a;
+}
+#flw {
+    color: #ffde72;
+}
+
+h2 { 
+    text-align: center; 
+}
+
+h3 {
+    color: #220218;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-violet {
+    background-color: #300622;
+color: white;
+    width: 600px;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+
+    /* text-align: left; */
+}
+
+.btn-violet:hover {
+   background-color: #ffffff;
+   color: #884874; border: 1px solid #3d062c;
+   font-size: 120%;
+       }
+
+#btn-vlt {
+    background-color: #81165d;
+    color: white;
+    width: 600px;
+    padding: 15px 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 40px 5px;
+    transition: 0.5s;
+}
+
+#btn-vlt:hover {
+    background-color: #ffffff;
+    color: #884874; border: 1px solid #be0282;
+    transform: scale(1.2);
+}
+
+
+title {
+    font-family: 'Lato', sans-serif;
+}
+/* p{text-align: center;} */
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+a{
+    text-decoration: none;
+}
+
+
+.cardwhite {
+    background-color: white;
+    width: 700px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+.borderviolet {
+    border: 2px dashed #9b4e83;
+  }
+
+.menu
+  {
+    text-align: center; 
+  }
+
+
+.gradient {  
+    background-image: linear-gradient(rgba(185, 89, 193, 0.486), rgba(255, 255, 0, 0.5));
+    }
+    
+.borderrose{
+    border: 2px solid #fb5997;
+} 
+
+.borderrose1 { 
+        border: 2px solid #e7688c;
+    }
+
+.borderorange {
+        border: 2px solid #f39682;
+        border-radius: 15px;
+        margin: 20px auto;
+       
+    }
+.textleft{
+    text-align: left; 
+}
+
+.borderjaune
+    { 
+        border: 2px solid #ffdd6d; 
+    }
+
+  img{ border-radius: 50px; width: 50px;}
+
+.list-inline {
+    list-style: none;
+    display: inline;
+}
+
+.list-inline li {
+    margin: 0 20px;
+    display: inline-flex;
+    
+}
+
+.list-inline img {
+    width: 130px;
+    border-radius: 80%;
+}
+
+.list-inline div {
+    margin: 0;
+    padding: 0;
+}
+
+
+#intro { 
+    margin-bottom: 40px;
+}
+
+#formation {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 10px auto;
+}
+
+#photodeprofil {
+    width: 130px;
+    border: 4px groove #a17493;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 70px;
+}
+
+#logoaxa {
+    width: 50px;
+    border-radius: 30px;
+}
+#logokedge {
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 300px;
+}
+
+.list-inline {
+list-style: none;
+}
+
+.footer { 
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+.list-inline div {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-instagram {
+    color: #884874;
+}
+.fa-at {
+    color: #884874;
+}
+.fa-linkedin-in{
+    color: #884874;
+}
+
+.fa-instagram:hover {
+    background-color: #ffffff;
+    color: #884874; border: 1px solid #82426e;
+}
+.fa-linkedin-in:hover {
+    background-color: #ffffff;
+    color: #884874; border: 1px solid #82426e;
+}
+.fa-at:hover {
+    background-color: #ffffff;
+    color: #884874; border: 1px solid #82426e;
+}
+
